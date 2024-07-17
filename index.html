@@ -30,7 +30,8 @@
           </li>
         </ul>
       </nav>
-      <section class="banner bg-dark">
+
+      <section class="banner">
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="column-6">
@@ -47,14 +48,35 @@
                 <span class="h1-fs text-primary text-right">William</span>
               </h1>
               <a
-                class="link-btn bg-white align-self-end d-flex align-items-center"
+                class="link-btn btn-white align-self-end d-flex align-items-center"
               >
                 contact me
-                <img
-                  src="./assets/img/arrow_outward.svg"
+                <svg
                   class="arrowIcon"
-                  alt="outward arrow"
-                />
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_2_112"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="24"
+                    height="24"
+                  >
+                    <rect width="24" height="24" fill="#D9D9D9" />
+                  </mask>
+                  <g mask="url(#mask0_2_112)">
+                    <path
+                      d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z"
+                      fill="#1C1B1F"
+                    />
+                  </g>
+                </svg>
               </a>
             </div>
           </div>
@@ -86,7 +108,6 @@
           <img src="./assets/img/sparkle.png" alt="sparkle-sm" />
           <img src="./assets/img/photographer.png" alt="photographer" />
           <img src="./assets/img/people-2.png" alt="people" />
-          </div>
         </div>
       </div>
     </section>
@@ -94,36 +115,36 @@
     <section class="about">
       <div class="container">
         <div class="row d-flex align-items-center">
-            <ol class="description mb-2 column-6 d-flex g-6">
-              <li>
-                <h3 class="fs-3 mb-1">01</h3>
-                <h3 class="fs-3 mb-1">Attention to Detail</h3>
-                <p>Meticulous code analysis and optimization.</p>
-              </li>
-              <li>
-                <h3 class="fs-3 mb-1">02</h3>
-                <h3 class="fs-3 mb-1">Adaptability</h3>
-                <p>Swift learning of new technologies.</p>
-              </li>
-              <li>
-                <h3 class="fs-3 mb-1">03</h3>
-                <h3 class="fs-3 mb-1">Problem Solver</h3>
-                <p>Identifying and resolving issues.</p>
-              </li>
-              <li>
-                <h3 class="fs-3 mb-1">04</h3>
-                <h3 class="fs-3 mb-1">Team Player</h3>
-                <p>Collaborates and shares ideas.</p>
-              </li>
-            </ol>
-          <div class="column-5  ml-auto">
+          <ol class="description mb-2 column-6 d-flex g-6">
+            <li class="des-list">
+              <h3 class="fs-3 mb-1">01</h3>
+              <h3 class="fs-3 mb-1">Attention to Detail</h3>
+              <p>Meticulous code analysis and optimization.</p>
+            </li>
+            <li class="des-list">
+              <h3 class="fs-3 mb-1">02</h3>
+              <h3 class="fs-3 mb-1">Adaptability</h3>
+              <p>Swift learning of new technologies.</p>
+            </li>
+            <li class="des-list">
+              <h3 class="fs-3 mb-1">03</h3>
+              <h3 class="fs-3 mb-1">Problem Solver</h3>
+              <p>Identifying and resolving issues.</p>
+            </li>
+            <li class="des-list">
+              <h3 class="fs-3 mb-1">04</h3>
+              <h3 class="fs-3 mb-1">Team Player</h3>
+              <p>Collaborates and shares ideas.</p>
+            </li>
+          </ol>
+          <div class="column-5 ml-auto">
             <div class="aboutMe">
               <h2 class="h2-fs mb-9">About Me</h2>
               <p class="fs-2">
                 With over 5 years of experience, I'm proficient in HTML, CSS,
-                JavaScript, jQuery, and React. I have a strong understanding of user
-                experience design and accessibility. I'm always learning new
-                technologies and techniques to stay up-to-date in the field.
+                JavaScript, jQuery, and React. I have a strong understanding of
+                user experience design and accessibility. I'm always learning
+                new technologies and techniques to stay up-to-date in the field.
               </p>
             </div>
           </div>
@@ -135,17 +156,27 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <h2 class="h2-fs text-white">CONTACT ME</h2>
-          <img src="./assets/img/trending_flat_black_24dp 1.png" alt="trending_flat_black_arrow" class="ml-4">
+          <img
+            src="./assets/img/trending_flat_black_24dp 1.png"
+            alt="trending_flat_black_arrow"
+            class="ml-4"
+          />
           <div class="column-5 ml-auto">
             <ul class="socialMedia d-flex">
               <li>
-                <img src="./assets/img/discord.png" alt="discord" class="socialIcon">
+                <a href="#" class="socialIcon">
+                  <img src="./assets/img/discord.png" alt="discord" />
+                </a>
               </li>
               <li class="ml-5">
-                <img src="./assets/img/instagram.png" alt="instagram" class="socialIcon">
+                <a href="#" class="socialIcon">
+                  <img src="./assets/img/instagram.png" alt="instagram" />
+                </a>
               </li>
               <li class="ml-5">
-                <img src="./assets/img/message.png" alt="message" class="socialIcon">
+                <a href="#" class="socialIcon">
+                  <img src="./assets/img/message.png" alt="message" />
+                </a>
               </li>
             </ul>
           </div>
@@ -158,35 +189,59 @@
         <div class="row">
           <h2 class="h2-fs column-7 ml-auto">My Projects</h2>
         </div>
-          <div class="row d-flex">
-            <div class="column-4">
-              <img src="./assets/img/Rectangle 10.png" alt="">
-            </div>
-            <div class="column-8">
-              <div class="profile d-flex flex-column justify-content-between">
-                <div class="card d-flex justify-content-between g-6">
-                  <img src="./assets/img/Rectangle 15.png" alt="">
-                  <div class="d-flex flex-column">
-                    <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
-                     <a
-                        class="link-btn btn-dark align-self-start d-flex align-items-center mt-auto"
+        <div class="row d-flex">
+          <div class="column-4">
+            <img src="./assets/img/Rectangle 10.png" alt="" />
+          </div>
+          <div class="column-8">
+            <div class="profile d-flex flex-column justify-content-between">
+              <div class="card d-flex justify-content-between g-6">
+                <img src="./assets/img/Rectangle 15.png" alt="" />
+                <div class="d-flex flex-column">
+                  <p>
+                    I've worked on a variety of websites, including e-commerce
+                    sites, blogs, and landing pages. I take pride in creating
+                    clean, efficient, and user-friendly code.
+                  </p>
+                  <a
+                    class="link-btn btn-dark align-self-start d-flex align-items-center mt-auto"
+                  >
+                    contact me
+                    <svg
+                      class="arrowIcon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_2_112"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
                       >
-                        contact me
-                        <img
-                          src="./assets/img/arrow_outward-dark.svg"
-                          class="arrowIcon"
-                          alt="outward arrow"
+                        <rect width="24" height="24" fill="#1C1B1F" />
+                      </mask>
+                      <g mask="url(#mask0_2_112)">
+                        <path
+                          d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z"
+                          fill="#D9D9D9"
                         />
-                      </a>
-                  </div>
-                </div>
-                <div class="case d-flex justify-content-between">
-                  <img src="./assets/img/Rectangle 14.png" alt="">
-                  <img src="./assets/img/Rectangle 29.png" alt="">
+                      </g>
+                    </svg>
+                  </a>
                 </div>
               </div>
-  
+              <div class="case d-flex justify-content-between">
+                <img src="./assets/img/Rectangle 14.png" alt="" />
+                <img src="./assets/img/Rectangle 29.png" alt="" />
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </section>
