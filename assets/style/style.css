@@ -105,13 +105,9 @@ footer{
     border-radius: 32px;
     vertical-align: baseline;
     font-family: "Bruno Ace SC", sans-serif;
+    cursor: pointer;
 }
-.link-btn img.arrowIcon {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    vertical-align: bottom;
-}
+
 .btn-white{
     background-color: #fff;
 }
